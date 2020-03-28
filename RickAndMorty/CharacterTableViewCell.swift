@@ -23,7 +23,7 @@ class CharacterTableViewCell: UITableViewCell {
         label.text = character.name
         guard let imageUrl = character.imageUrl else { return }
         avatarLoadTask = URLSession.shared.dataTask(with: imageUrl) { data, _, _ in
-            guard let data = data, let image = UIImage(data: data) else { return }
+                   guard let data = data, let image = UIImage(data: data) else { return }
             DispatchQueue.main.async {
                 self.avatarImageView.image = image
             }

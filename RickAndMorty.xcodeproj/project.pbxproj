@@ -17,6 +17,8 @@
 		07F0403D241FD1CE007AC70D /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F0403C241FD1CE007AC70D /* Character.swift */; };
 		07F0403F241FEE04007AC70D /* CharacterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F0403E241FEE04007AC70D /* CharacterService.swift */; };
 		07F0404124206CAE007AC70D /* CharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F0404024206CAE007AC70D /* CharacterTableViewCell.swift */; };
+		89BCB9E9B52375912B7523AF /* Pods_RickAndMortyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61E001904B85DA6612046572 /* Pods_RickAndMortyTests.framework */; };
+		B7F90E6982F405740459475C /* Pods_RickAndMorty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D4E0978CE9015EF90238ED /* Pods_RickAndMorty.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,9 +46,11 @@
 		07F0403C241FD1CE007AC70D /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		07F0403E241FEE04007AC70D /* CharacterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterService.swift; sourceTree = "<group>"; };
 		07F0404024206CAE007AC70D /* CharacterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewCell.swift; sourceTree = "<group>"; };
+		61E001904B85DA6612046572 /* Pods_RickAndMortyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RickAndMortyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62663FEEB5F52753339C40F5 /* Pods-RickAndMortyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickAndMortyTests.release.xcconfig"; path = "Target Support Files/Pods-RickAndMortyTests/Pods-RickAndMortyTests.release.xcconfig"; sourceTree = "<group>"; };
 		7A0349D39ACE053CFB07FDB0 /* Pods-RickAndMorty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickAndMorty.debug.xcconfig"; path = "Target Support Files/Pods-RickAndMorty/Pods-RickAndMorty.debug.xcconfig"; sourceTree = "<group>"; };
 		B369415EAA0207C34B3B9ADD /* Pods-RickAndMorty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickAndMorty.release.xcconfig"; path = "Target Support Files/Pods-RickAndMorty/Pods-RickAndMorty.release.xcconfig"; sourceTree = "<group>"; };
+		E5D4E0978CE9015EF90238ED /* Pods_RickAndMorty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RickAndMorty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F35D9768537904778BABA408 /* Pods-RickAndMortyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickAndMortyTests.debug.xcconfig"; path = "Target Support Files/Pods-RickAndMortyTests/Pods-RickAndMortyTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -55,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7F90E6982F405740459475C /* Pods_RickAndMorty.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89BCB9E9B52375912B7523AF /* Pods_RickAndMortyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +123,8 @@
 		991A380391BE5271FCA958D0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E5D4E0978CE9015EF90238ED /* Pods_RickAndMorty.framework */,
+				61E001904B85DA6612046572 /* Pods_RickAndMortyTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -234,7 +242,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		0750A1B1242F2C7B0004188F /* Errors */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputFileListPaths = (

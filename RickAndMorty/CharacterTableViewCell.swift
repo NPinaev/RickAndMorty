@@ -16,10 +16,9 @@ class CharacterTableViewCell: UITableViewCell {
     override func prepareForReuse() {
         super.prepareForReuse()
         avatarImageView.image = nil
-//        avatarLoadTask?.cancel()
+        avatarLoadTask?.cancel()
     }
 
-    
     func setup(with character: Character) {
         label.text = character.name
         guard let imageUrl = character.imageUrl else { return }

@@ -24,7 +24,7 @@ extension Page: Decodable {
 }
 
 struct Character: Decodable {
-    let id: Int
+    let idName: Int
     let name: String
     let image: String
 }

@@ -13,7 +13,6 @@ class CharacterService {
 
    private let baseURL = "https://rickandmortyapi.com/api/character/"
     private var nextPage: URL?
-    
     func getCharacters(completion: @escaping CharactersCompletion) {
         guard let url = URL(string: baseURL) else {
             completion(nil)
@@ -31,7 +30,7 @@ class CharacterService {
     }
 
     private func getCharacters(url: URL, completion:  @escaping CharactersCompletion) {
-        URLSession.shared.dataTask(with: url) { data, response, error in
+        URLSession.shared.dataTask(with: url) { data, _, error in
             guard let data = data, error == nil else {
                 completion(nil)
                 return

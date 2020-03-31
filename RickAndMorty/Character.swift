@@ -27,6 +27,8 @@ struct Character: Decodable {
     let id: Int
     let name: String
     let image: String
+    let status: String
+    let species: String
 }
 
 extension Character {
